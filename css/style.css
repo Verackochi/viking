@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #0E0E0E;
+    color: #fff;
+    font-family: 'Roboto Condensed',
+        'sans-serif';
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header,
+.Trailer {
+    background-image: url('../images/BackGround.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.d-center {
+    display: flex;
+    justify-content: center;
+}
+
+.d-spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+}
+
+.menu__list {
+    padding: 50px 0 58px;
+}
+
+.menu__list-item {
+    margin: 0 25px;
+}
+
+.menu__list-link,
+.About__title,
+.season__title {
+    font-size: 36px;
+    line-height: 42px;
+
+}
+
+.menu__list-link:hover,
+.menu__list-link:active {
+    border-bottom: 2px solid #85CCDC;
+    color: #85CCDC;
+}
+
+.logo {
+    margin-top: 85px;
+}
+
+.About, .season {
+    margin: 100px 0 100px;
+}
+
+.info {
+    margin-top: 100px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.block {
+    margin-top: 34px;
+    max-width: 205px;
+}
+
+.info__text {
+    max-width: 775px;
+}
+
+.Trailer {
+    background-image: url('../images/trailer-images.jpg');
+}
+
+.Trailer__block {
+    position: absolute;
+    left: 960px;
+    top: 1900px;
+}
+
+.Trailer__block-title {
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #85CCDC;
+}
+
+.Trailer__block-title--2 {
+    display: block;
+    margin-left: 250px;
+}
+
+.Trailer__block-link {
+    display: flex;
+    align-items: center;
+}
+
+.Trailer__block-text {
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+.season__list {
+    margin-top: 100px;
+}
+
+.part__item {
+    margin-left: 75px;
+} 
+
+.part {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+}
+
+.part__item {
+    height: 40%;
+    width: 40%;
+}
+
+.part__item-number {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    color: #600e09;
+}
+
+.part__item-image {
+    position: relative;
+    top: -40px;
+}
+
+.part__item-link {
+    position: relative;
+    top: -165px;
+    left: 125px;
+    font-size: 36px;
+    display: none;
+}
+
+.part__item-image:hover,.part__item-link {
+    display: block;
+}
+
